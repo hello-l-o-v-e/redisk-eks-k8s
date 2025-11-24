@@ -1,6 +1,6 @@
 FROM redis:7.2-alpine
 
-# 复制自定义配置文件
+# 复制自定义配置文件3
 #COPY redis.conf /usr/local/etc/redis/redis.conf
 COPY ./docker/redis.conf /usr/local/etc/redis/redis.conf
 
